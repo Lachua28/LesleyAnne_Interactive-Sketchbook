@@ -12,11 +12,27 @@
 </head>
     <body>
         <h1>Micro-Project: Progress #2</h1>
-        <p>Made a separate link to preserve updated text until later (will keep in one file from here on out).</p>
+        <h2>1. Current Build (Brief Description)</h2>
+        <p>In this version of my system—which I’m going to call a “game” from now on—I have added pretty much all of the game mechanics, so everything works as intended.</p>
+        <p>My main variables are “busX” and “stopX”, which determine where the bus and bus stop are. The main change is that the player clicks the screen to stop the bus, which has automated movement. If the player clicks the screen while busX and stopX are overlapping, they win the level. Then, if the player presses a key while on the “win” or “fail” states, they move on to the next level or reset, respectively.</p>
+        
+        <h2>2. Where Is the Pressure?</h2>
+        <p>The tension in my system is caused by speed escalation and accumulation with each level. The bus’s speed is the frame count multiplied by the “currentLevel” variable. The currentLevel goes up by 1 with each win (every time the “win” variable is turned to “true”), so the speed goes up with every level win.</p>
+        
+        <h2>3. One Structural Addition This Week</h2>
+        <p>Honestly, I’m unsure what to add coding-wise since I’ve covered almost all the bases suggested/required so far.</p>
+        <ul>
+        <li>Threshold that changes behavior: location-based threshold of the “win” area & the max level threshold which stops the game.</li>
+        <li>Reset condition: If a key is pressed while variable “fail” is true, you reset. (Opposed to when you win the level, where the key moves to the next level instead of resetting.)</li>
+        <li>Restriction after a limit: You can’t move the bus backwards, so if you miss the bus stop x-values or reach the end of the screen without clicking, you can’t trigger a “win.”</li>
+        <li>Escalation over time: Bus speed increases.</li>
+        </ul>
+        <p>The only one I don’t technically have is a “time-based consequence,” but the bus speed and “restriction after a limit” are sort of based on time already? Since you fail if you wait too long to click.</p>
 
         <script src="js/progress2.js"></script>
     </body>
 
 </html>
+
 
 
