@@ -45,7 +45,7 @@ function draw() {
     rect(wrongX, 175, 100, 10); // red area
     fill(10)
     rect(wrongX+70, 110, 4, 66); // pole
-    fill(237, 138, 138)
+    fill(250, 175, 175)
     stroke(0)
     //sign
     ellipse(wrongX+72, 110, 30);
@@ -58,7 +58,7 @@ function draw() {
     rect(stopX, 175, 100, 10); // green area
     fill(10)
     rect(stopX+70, 110, 4, 66); // pole
-    fill(152, 191, 151)
+    fill(195, 237, 194)
     stroke(0)
     //sign
     ellipse(stopX+72, 110, 30);
@@ -150,5 +150,4 @@ function draw() {
         }
     }
 }
-
 
