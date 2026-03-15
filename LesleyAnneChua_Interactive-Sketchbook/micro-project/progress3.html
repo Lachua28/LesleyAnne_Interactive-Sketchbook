@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
         <meta charset="UTF-8">
-        <title>Micro-Project: Progress #3</title>
+        <title>Micro-Project: Final Submission</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,8 +11,37 @@
         <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
 </head>
     <body>
-        <h1>Micro-Project: Progress #3</h1>
-
+        <h1>Micro-Project: Self-Assessment</h1>
+        <h2>Core Rule & System Clarity: 20/20</h2>
+            <p>I personally think I did a good job executing the rule of the user stopping the moving bus at a certain area (the bus stop) in order to "win." 
+                    I think that the instructions written on the sketch make it straightforward enough to understand. 
+                    In comparison to the "No Internet Dinosaur Game," I want to assume that the "level" count at the top right of the sketch implies that it is a game of sorts with a win condition.</p>
+        <h2>State Progression: 15/15</h2>
+            <p>I may be misunderstanding, but I believe the state progression present in my sketch is the additional "wrong" bus stop added after the first level. 
+                    The addition of a wrong stop is a one-time change in the code structure, triggered after the player wins the first level. 
+                    Other than that, I want to say that the main interaction (stopping the bus at the bus stop) is also tied to state progression because the "win" variable changes certain elements of the sketch.</p>
+        <h2>Interaction & Evolution: 15/15</h2>
+            <p>The main interaction of clicking the bus to stop it at the bus stop evolves the system by increasing the speed of the bus. 
+                    The level counter increases by 1 every time the player stops the bus within the bus stop area, triggering the "win" variable. 
+                    (The "win" variable resets when the player presses a key to continue to the next level.) 
+                    Since the level counter is multiplied by the bus speed, it makes the bus exponentially faster after each win/level. 
+                    Out of the keywords in the rubric, I consider this escalation.</p>
+        <h2>Iterative Development: 15/15</h2>
+            <p>Between Progress #1 & #2, there is the structural change of adding levels, a 'level reset' when you fail a level, and randomizing the position of the bus stop. 
+                    Between Progress #2 & #3 (final), the structural change is adding the red "wrong stop" and improving the visuals. 
+                    Additionally, I built this project on top of my Sketch #6, so you can see the biggest change between that and the final!</p>
+        <h2>Documentation & Logging: 15/15</h2>
+            <p>I want to say my documentation is clear enough because I wrote a lot about my thought process for progress #1 and then what I did for progress #2.</p>
+        <h2>Risk & Experimentation: 10/10</h2>
+            <p>I took my biggest risk/experimentation with trying to figure out movement and randomized positions for this project! 
+                    Going into the project, I wasn't sure how to make automated movement, so I decided to do this micro-idea with the assumption that I would figure it out somewhere down the line.
+                    After figuring it out for progress #1, I experimented more with movement because I had to change the way I did it in order to create more levels. 
+                    Originally, I did automated movement by adding 1 integer to the frameCount, but that only works for a single level. 
+                    In hindsight, it was a simple fix (make my own counting variable), but it took time for me to realize that was the problem.</p>
+        <h2>Participation & Critique Engagement: 9/10</h2>
+            <p>The only part of this project that I think I fell short were critiques. I gave mostly surface-level critiques and didn't take many critiques for my project into consideration because I was mentally spent from figuring out the ideas I came up with by myself. 
+            I did add the suggestion of adding more bus stops (the wrong stop), but that's about it.</p>
+            
         <script src="js/progress3.js"></script>
     </body>
 
