@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <title>Reading Reflection 1</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+</head>
+    <body>
+        <h1>UI/UX Reflection — Nielsen Heuristics</h1>
+        
+        <h2>Norman + Nielsen</h2>
+          <p>The heuristic that feels most aligned with Norman’s concerns is the third heuristic, user control and freedom. More specifically, the fact that it considers user mistakes. While the fifth heuristic says to prevent mistakes, the third heuristic states that you should design “emergency exits” that allow users to undo unwanted actions because they will make mistakes no matter what. I think that this aligns with Norman’s claim that you should accommodate human mistakes.</p>
+          <p>In addition to this, the readings also overlap with the idea that users shouldn’t be overloaded with information. Several heuristics push for only including what is necessary, especially for novice users. Norman has a similar idea in chapter one, like when he complains about how you shouldn’t need to sift through a manual to understand basic functions of an appliance. Heuristic one also brings up feedbacks, which were covered in Norman’s reading.</p>
+        
+        <h2>Challenge Your Own Work</h2>
+          <h3>1. Heuristic #2: Match Between the System and the Real World</h3>
+          <p>In my micro-project, I received a comment from a peer saying that it was odd that the “wrong” stop in my game is marked red. With the context of the green stop, it makes more sense as red being “wrong,” but the peer comment brought up that red also means “stop” in a driving context. So, considering the reading states that design should “follow real-world conventions,” the red stop communicated the opposite of the goal. That being said, I could argue that the purpose of the wrong stop is to make the game more challenging, so it could be an intentional “bad” design.</p>
+          <h3>2. Heuristic #8: Aesthetic and Minimalist Design</h3>
+          <p>The reading concisely states that “interfaces should not contain information that is irrelevant or rarely needed.” My personal criticism of my game is that there is too much text on screen considering that the game is not text-based. I think the amount of text is acceptable since it is all instructions, but it gets repetitive and takes up a lot of screen space. The amount of words might confuse a user or take up more time than needed. In short, the amount of text is not efficient.</p>
+        
+        <h2>Sketchbook Interface Audit (Preliminary)</h2>
+          <p>The heuristic my sketchbook most clearly violates is heuristic #3, “User Control and Freedom.” Although the reading explains this heuristic as creating a way out of mistakes, in my sketchbook’s case, the “mistake” is clicking a page and then having no way out. Currently, there are no “back” buttons or navigation on any of my pages other than the index. Although you can press the back button on the browser, if you were to start on any page other than the index, you wouldn’t be able to navigate. TL;DR, lack of navigation gives the user less control.</p>
+        
+        <h2>The Hardest Heuristic</h2>
+          <p>Personally, I think the hardest heuristic to implement is the fifth heuristic: error prevention. This is because of the concept of predicting errors. There are only so many errors that a designer can predict and prevent, since new users will introduce new mistakes unique to them. Predicting every possible human behaviour is impossible, so if anything, changes will always have to be made as users find or create more problems.</p>
+
+    </body>
+
+</html>
+
+
+
+
+
