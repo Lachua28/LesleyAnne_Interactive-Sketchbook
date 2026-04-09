@@ -1,1 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <title>Reading Reflection 1</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+</head>
+    <body>
+        <h1>Interface Audit — Micro-Project (Code Only)</h1>
+
+        <h2>Visibility of System Status</h2>
+        <p>Does the page communicate where the user is?: Yes, with a heading.</p>
+        <p>Is it clear what stage or state they are in?: Yes, the bus game has text that says which level you are on.</p>
+        <p>Is it obvious what is interactive?: Mostly; the game has text that tells you whenever you can click or press a key to affect the system, but it does not specify if you need to click in a certain area (main weakness).</p>
+        
+        <h2>Affordances & Signifiers</h2>
+        <p>What actions are available on this page?: Clicking and pressing any key, which are done to play the game.</p>
+        <p>How are those actions signified?: Text instructions within the P5 canvas.</p>
+        <p>Is anything clickable but unclear?: No, since clicking is not isolated to one area within the game and only has one function.</p>
+        <p>Is anything unclear but interactive?: No, since there are only two intended interactions, which are both instructed within the game.</p>
+        
+        <h2>Navigation & Mapping</h2>
+        <p>How does a user move through this system?: Clicking with the mouse and pressing any key on the keyboard when required.</p>
+        <p>Does layout reflect system structure?: I’m not sure if this is applicable to my game. However, the layout does resemble what the game is supposed to be mimicking.</p>
+        <p>Is hierarchy clear?: Somewhat; the title and other important text are bigger to show hierarchy, but there’s not much hierarchy differentiators other than that.</p>
+        <p>Does interaction feel predictable?: Yes, but only because it is so limited.</p>
+        <p>Where might a user hesitate?: Users may be confused on whether they need to click in a certain area, or whether to click or use a key press at times.</p>
+        
+        <h2>Constraints & Assumptions</h2>
+        <p>What does the page assume the user understands?: That the green area marked on the ‘road’ is the full area of the bus stop (rather than needing to align the bus to the middle of the bus sign).</p>
+        <p>What is hidden?: The overshoot/extra allowance of the bus stop “win” area; this means that you don’t need to fit the entire bus in the green area in order to win.</p>
+        <p>What requires guessing?: Where exactly you need to stop the bus (when first playing).</p>
+        <p>What is restricted?: I guess the win screen is restricted since you need to interact with the game a certain way to get to it?</p>
+        <p>Identify at least one assumption: Users might assume that clicking is the only interaction they need to do because of how simple the game is.
+        
+        <h2>Heuristic Violations</h2>
+        <p>Identify two Nielsen heuristics your page violates:</p>
+        <p><b>1. Heuristic #4: Consistency and Standards</b></p>
+        <p>Describe: A peer brought up during critique that it felt unintuitive to have the “continue” function of my game be triggered by a key press versus the click used to stop the bus. I coded the key press so you wouldn’t accidentally fail the next level if you accidentally clicked too much, but I think this technically counts as violating what users would typically expect from a click-based game.</p>
+        <p>Where it occurs: Whenever the bus is stopped (after a click).</p>
+        <p>Structural fix: Make it possible to continue with a click and/or key press.</p>
+        
+        <p><b>2. Heuristic #10: Help and Documentation</b></p>
+        <p>Describe: The “wrong” red bus stop that appears after the first level appears with no context. It was designed with the assumption that you would know not to stop there because it doesn’t match the previous “winning” bus stop. However, some users may not understand that the red stop does not count as a winning stop. (Additionally, I realize these colours may not work for people who are colour-blind, so those users wouldn’t know why they are failing in the first place.)</p>
+        <p>Where it occurs: Levels 2–10 of the game.</p>
+        <p>Structural fix: Add additional text in a “Help” section to explain that you should avoid the red stops.</p>
+        
+        <h2>Structural Revision Proposal</h2>
+        <p>Propose three structural changes to this page:</p>
+        
+        <ol>
+        <li>State visibility: add more visual feedback for “fail” and “win” states.</li>
+        <li>Navigation: Add site navigation to this page and/or a way to restart the page/game once you win the last level.</li>
+        <li>Interaction Clarity: Use a different approach to explaining how to interact with the game, such as with imagery rather than text. Alternatively, use different text hierarchy to make the existing instructions easier to understand at a glance (e.g. “CLICK TO STOP BUS” rather than the full sentence I currently have.)</li>
+        </ol>
+    </body>
+
+</html>
+
+
+
 
