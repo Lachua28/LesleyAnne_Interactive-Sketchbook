@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <title>Micro-Project: Progress #1</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
+</head>
+    <body>
+        <h1>Micro-Project: Progress #1</h1>
+        <h2>1. Concept Summary</h2>
+        <p>The interaction is that the user can click in order to board the bus as the bus drives to the bus stop. The user controls when they attempt to board the bus, which will only be successful at a certain time/location. The change over time is that the bus moves automatically, but stops whenever the user attempts to board the bus.</p>
+        <h2>2. Primary Variable</h2>
+        <p>Main variable: busX</p>
+        <p>This variable affects the x-position of the bus and is how the system determines whether you can successfuly board the bus. Success is when busX is within a certain range.</p>
+        <h2>3. Base Build (What You Will Code This Week)</h2>
+        <p>For this week, I wanted to see if I could teach myself the automated movement over time across the screen! I've already figured out the basic functions, so this week I plan to add more visuals to differentiate the state changes and where you can board the bus. I'm also going to add a little person to show the bus has been boarded.</p>
+        <p>State 1: The bus is empty and begins to move towards the bus stop.
+        <br>State 2: If you attempt to board the bus before it is at the stop, the system stops the bus and tells you that you can't board.
+        <br>State 3: If you attempt to board the bus when it's at the stop, the system stops the bus and tells you you've succeeded.</p>
+        <h2>4. Structural Growth</h2>
+        <p>If I’m understanding correctly, a time-based decay is what I’ve already added to my system. A threshold I have but is not up to my standards is that you can board the bus within a certain range (I want to add more to it). Similarly, an automatic system behaviour I just added is the failure text for “missing the bus,” which comes up automatically once the bus passes the bus stop location on the x-axis. I might change the last one.</p>
+
+        <script src="js/p5-sketch.js"></script>
+    </body>
+
+</html>
+
