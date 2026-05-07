@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    line-height: 1.8;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: baseline;
+    padding: 50px 50px 15px 50px;
+    background-color: #B6DAC9;
+}
+
+nav {
+    align-items: baseline;
+}
+
+.main {
+    margin: 30px 50px 30px 50px;
+}
+
+.flex {
+    display: flex;
+    gap: 30px;
+}
+
+.twoColumn {
+    display: flex;
+    gap: 100px;
+}
+
+/* TYPOGRAPHY *************************************************/
+
+nav {
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 1.6em;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+p, ol, ul {
+    line-height: 1.6;
+    max-width: 800px;
+}
+
+hr {
+    width: 700px;
+    color: #ADADAD;
+    margin: 20px 0 15px 0;
+}

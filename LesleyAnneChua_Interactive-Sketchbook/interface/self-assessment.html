@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <title>Interface System Prototype 3</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+</head>
+    <body>
+    <div class="main">
+        <h1>Interface System Prototype — Week 3</h1>
+    
+        <p><a href="https://www.figma.com/design/xKJOgnkG5C4YkRaTnseftT/DES327-LAC-Sketchbook-Interface?node-id=0-1&t=taS6EkSPRtxMeeR5-1">Live Figma Link</a></p>
+        
+        <h2>Interface System Statement</h2>
+
+        <h3>Navigation model</h3>
+        <p>The navigation model I decided to use on mobile is a separate screen that opens up after clicking a “hamburger menu” icon. The hamburger menu is visible on every screen within a sticky header bar at the top.</p>
+        <p>For the desktop screens, I decided to use drop-down menus. This groups and sections out the navigation more than mobile because there’s space for it in the header bar.</p>
+        
+        <h3>Hierarchy logic</h3>
+        <p>For text, I primarily used size as my hierarchy differentiator. H1 is the largest heading while H4 is the smallest. Because H4 is the same size as the body text, it is bolded to show contrast. h3 and H3 are styled with “Semi-bold” and “Medium” weights respectively. Since they already differentiate from the size, the weight selections are for aesthetic purposes based on how I personally format my own writing (I like having H3 intentionally lighter than the other headings).</p>
+        
+        <h3>Mobile-first reasoning</h3>
+        <p>Because of the amount of content on these three pages, it was important to start with mobile to streamline the information architecture. If the screen looked too cluttered, it meant that there was probably information there that was unnecessary to have. Starting with mobile meant that I could narrow down what was really necessary to include.</p>
+        <p>Then, when I created the desktop screens, I could theoretically expand more. However, in this case, I think the limited number of pages on my site (compared to, say, the Wall Street Journal) meant that I didn’t really need to add more elements anyway. The only change was the navigation model on desktop since there was more space in the header/nav bar for navigation links.</p>
+        
+        <h3>Norman</h3>
+        <p>The connection my UI design has to Norman’s ideas are signifiers. Norman provides an example of signifiers using an image of a screen with arrow symbols on a theoretical site. These arrows signify that you can swipe or move left and right between screens. There are also tabs on the top and bottom of the screen that have symbols to indicate menus.</p>
+        <p>In my design, I use a hamburger menu which is a universal symbol that you can open a menu on a website. I also chose to use directional arrows next to my dropdown menus to show that they can open. The arrows are something I took from the Canvas modules UI. Writing this makes me realize that the concept of arrows for dropdown menus also relates to Norman’s topic of mapping, since the arrow directions can indicate the direction the dropdown menu is in (e.g. down arrow means the menu has dropped down). I suppose these are signifiers of the affordance of navigation.</p>
+        <p>Concerning feedbacks, the primary action on my site is clicking links to other pages or expanding the navigation menu. Therefore, all of the feedbacks are either a page change or the navigation menu expanding to fill the screen (mobile) or revealing the dropdown menu (desktop) to show the user that their action worked.</p>
+        
+        <h3>Nielsen</h3>
+        <p>I believe my UI design matches Nielsen’s heuristics of “Visibility of System Status,” “User Control and Freedom,” “Consistency and Standards,” and “Recognition Rather than Recall.”</p>
+        <p>The “Visibility of System Status” is present in the menus on both mobile and desktop. The mobile menu makes it clear that you have a navigation menu open because it is both labelled and covers the entire screen with a background to cover whatever page you are currently on. On desktop, this is shown with the arrows on the dropdown menus changing to show that they are ‘open.’</p>
+        <p>“User Control and Freedom” is present in that you can access every page from every page because the navigation menus (hamburger and dropdown) are available on every page via the header/nav bar. This is only possible on desktop because I know there will be a set number of pages by the end of the semester.</p>
+        <p>There is consistency in my text hierarchy. Although differing between the screen sizes, the mobile and desktop screens use the same text sizes and weights throughout every page. The hamburger and dropdown menu symbols are also considered a “standard” on the web, so most people would understand what they mean.</p>
+        <p>Lastly, my navigation menus show a mix of consistency and recognition rather than recall. Nielsen’s reading states that “The user should not have to remember information from one part of the interface to another.” My navigation menu changes slightly between desktop and mobile, so I wanted to unify them and make it easier for users to navigate between the two. I did this by maintaining the drop down menu on both even though it’s only necessary on desktop to conserve space, whereas on mobile, the navigation has its own ‘page’ (fills the screen).</p>
+        
+        <h3>Shneiderman</h3>
+        <p>The Schneiderman rules that I think most apply to my project are 1) consistency, 2) reduce short-term memory load, 3) keeping users in control, and 4) universal usability. I believe consistency is for the same reasons as mentioned in the above section.</p>
+        <p>I believe my project reduces short-term memory load, particularly in the desktop screens, because all the navigation is grouped on the nav bar on every screen. This, of course, doesn’t apply to mobile because it would be too much to fit on one screen. Other than the navigation, I think my website also includes all the information you need for each page, such as the description on the home page. The only downside is that it sacrifices minimalism somewhat, another heuristic/rule.</p>
+        <p>“Keep users in control” is a bit of a stretch for my website, but I suppose that it technically keeps users in control in that there are so many limited actions (mainly clicking links) that there isn’t anything I can think of that would happen without the user intending it to.</p>
+        <p>Lastly, I intend to implement more universal usability in terms of making my website and micro-project colourblind friendly. I learned from critiquing my micro-project that it was not colourblind friendly since the colours I used were not distinct enough. Technically this wasn’t accomplished by adding anything, but instead making the conscious choice to use higher contrast and avoid colours that might mix together to someone who is colourblind. Additionally, I tried to keep the heading groupings consistent so that it would also be more accessible to people using screen readers.</p>
+        
+        <hr>
+        
+        <h2>Grading</h2>
+        
+        <h3>Navigation Model & System Coherence (20/20)</h3>
+        <p>Although my navigation menu changes from a full screen menu on mobile to a smaller menu on desktop, the links are the same and both utilize drop-down arrows to group links.</p>
+        
+        <h3>Hierarchy & Mobile-First Logic (20/20)</h3>
+        <p>Text hierarchy is differentiated by size. For example, the landing page on both mobile and desktop has much larger headers to show link grouping. (The text sizes are bigger on desktop, but the proportions stay the same.) Additionally, the navigation menu is minimized on mobile since it is not the most important part of the pages and therefore not required to be on screen at all times. I designed the mobile pages first, which is evident in that there isn’t any information on the mobile screens that is missing from the desktop screens.</p>
+        
+        <h3>Identify where state is communicated and how interaction is signified (15/15)</h3>
+        <p>The “states” are the website pages, which are communicated with a clear heading at the top of each page. Links are signified with underlines, a standard on the web. For the micro-project mobile page (the alternate version with the arrow symbols), interaction is signified by the revolving arrow symbols which indicate at a glance that the user should rotate their device.</p>
+        
+        <h3>Theoretical Integration (Norman/Nielsen/Shneiderman) (14/15)</h3>
+        <p>I believe I integrated all of Norman’s ideas that I’m familiar with. I tried to implement four of Nielsen and Schneiderman’s heuristics each, but I don’t think it’s perfect since my implementations of Shneiderman’s heuristics (user control and universal usability) were more of a stretch.</p>
+        
+        <h3>Cross-Page Consistency (10/10)</h3>
+        <p>I believe all my pages are consistent since they use the same text hierarchy, fonts, and structure. The only exception is the alternate (horizontal) micro-project page, which breaks convention with rotation out of necessity since my micro-project has a horizontal canvas.</p>
+        
+        <h3>Risk & Structural Ambition (5/5)</h3>
+        <p>I made the choice to put all the links on the landing page without drop-downs. This was a risk for me personally because I needed to balance the hierarchy enough so that it wouldn’t visually overload or confuse users. Additionally, I had never done a drop-down menu before on Figma, so that was new for me. I technically was unable to get it to work the way I wanted, but I’m glad I tried it anyway.</p>
+        
+        <h3>Iterative Development (10/10)</h3>
+        <p>There is a jump in content between my first iteration and the second one. I forgot to include screenshots for the third prototype page, but it looked the exact same as the “final” version except in grayscale.</p>
+        
+        <h3>Participation & Critique Engagement (5/5)</h3>
+        <p>I participated in group critiques more than the previous project! The smaller group critiques were helpful, and I was able to give tips on Figma since I have some experience.</p>
+
+
+    </div>
+    </body>
+
+</html>
