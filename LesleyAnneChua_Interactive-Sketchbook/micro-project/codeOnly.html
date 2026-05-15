@@ -14,14 +14,51 @@
 
 <header>
     <nav class="flex">
-        <script src="css/js.js"></script>
         <p><a href="../index.html"><span style="font-size: 1.6em">LAC's Sketchbook</span></a></p>
-        <p><a href="#">Weeks 1–4 <i class="fa-solid fa-angle-down"></i></a></p>
-        <p><a href="#">Micro-Project <i class="fa-solid fa-angle-down"></i></a></p>
-        <p><a href="#">Reading Reflections <i class="fa-solid fa-angle-down"></i></a></p>
-        <p><a href="#">Interface Project <i class="fa-solid fa-angle-down"></i></a></p>
-        <p><span style="font-size: 0.7em; font-weight:400">(not real drop downs, use landing page links)</span></p>
+
+        <div id="show-nav" class="dropbtn">
+            <div id="dropdown" onClick="myFunction(this)">Weeks 1–4 <i class="fa-solid fa-angle-down"></i></div>
+            <div id="myDropdown" class="dropdown-content">
+                    <a href="#">Week 1</a>
+                    <a href="#">Week 2</a>
+                    <a href="#">Week 3</a>
+                    <a href="#">Week 4</a>
+            </div>
+        </div>
+
+        <div id="show-nav" class="dropbtn">
+            <div id="dropdown" onClick="myFunction(this)">Micro-Project <i class="fa-solid fa-angle-down"></i></div>
+            <div id="myDropdown" class="dropdown-content">
+                    <a href="progress1.html">Progress #1</a>
+                    <a href="progress2.html">Progress #2</a>
+                    <a href="progress3.html">Progress #3 / Self-Assessment</a>
+                    <a href="codeOnly.html">Final / Code Only</a>
+            </div>
+        </div>
+
+        <div id="show-nav" class="dropbtn">
+            <div id="dropdown" onClick="myFunction(this)">Reading Reflections <i class="fa-solid fa-angle-down"></i></div>
+            <div id="myDropdown" class="dropdown-content">
+                    <a href="../readings/reading-1.html">Reading 1</a>
+                    <a href="../readings/reading-2.html">Reading 2</a>
+                    <a href="../readings/audit.html">Interface Audit</a>
+                    <a href="../readings/reading-3.html">Reading 3</a>
+            </div>
+        </div>
+
+        <div id="show-nav" class="dropbtn">
+            <div id="dropdown" onClick="myFunction(this)">Interface Project <i class="fa-solid fa-angle-down"></i></div>
+            <div id="myDropdown" class="dropdown-content">
+                    <a href="../interface/prototype-1.html">Interface Prototype 1</a>
+                    <a href="../interface/prototype-2.html">Interface Prototype 2</a>
+                    <a href="../interface/prototype-3.html">Interface Prototype 3</a>
+                    <a href="../interface/self-assessment.html">Interface Self Assessment</a>
+                    <a href="../interface/progress-1.html">Interface Implementation 1</a>
+            </div>
+        </div>
+        <div id="hamburger"><i class="fa-solid fa-bars" style="font-size:1.2em"></i></div>
     </nav>
+
 </header>
 
 <body>
