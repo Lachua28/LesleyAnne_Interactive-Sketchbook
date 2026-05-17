@@ -97,6 +97,10 @@ img {
     margin: 10px 0px 10px 0px;
 }
 
+p {
+    line-height: 2em;
+}
+
 .main {
     margin: 20px 15px 20px 15px;
 }
