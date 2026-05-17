@@ -101,6 +101,11 @@ p {
     margin-bottom: 10px;
 }
 
+hr {
+    max-width: 80vw;
+    margin: auto;
+}
+
 .main {
     margin: 20px 15px 20px 15px;
 }
