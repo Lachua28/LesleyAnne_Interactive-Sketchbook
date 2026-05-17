@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <title>Interface Implementation Progress 1</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/3805c27130.js" crossorigin="anonymous"></script>
+
+        <script src="css/js.js"></script>
+</head>
+
+<header>
+    <nav class="flex">
+        <p><a href="index.html"><span style="font-size: 1.6em">LAC's Sketchbook</span></a></p>
+
+        <div id="show-nav" class="dropbtn">
+            <div id="dropdown" onClick="myFunction(this)">Weeks 1–4 <i class="fa-solid fa-angle-down"></i></div>
+            <div id="myDropdown" class="dropdown-content">
+                    <a href="#">Week 1</a>
+                    <a href="#">Week 2</a>
+                    <a href="#">Week 3</a>
+                    <a href="#">Week 4</a>
+            </div>
+        </div>
+
+        <div id="show-nav" class="dropbtn">
+            <div id="dropdown" onClick="myFunction(this)">Micro-Project <i class="fa-solid fa-angle-down"></i></div>
+            <div id="myDropdown" class="dropdown-content">
+                    <a href="micro-project/progress1.html">Progress #1</a>
+                    <a href="micro-project/progress2.html">Progress #2</a>
+                    <a href="micro-project/progress3.html">Progress #3 / Self-Assessment</a>
+                    <a href="micro-project/codeOnly.html">Final / Code Only</a>
+            </div>
+        </div>
+
+        <div id="show-nav" class="dropbtn">
+            <div id="dropdown" onClick="myFunction(this)">Reading Reflections <i class="fa-solid fa-angle-down"></i></div>
+            <div id="myDropdown" class="dropdown-content">
+                    <a href="readings/reading-1.html">Reading 1</a>
+                    <a href="readings/reading-2.html">Reading 2</a>
+                    <a href="readings/audit.html">Interface Audit</a>
+                    <a href="readings/reading-3.html">Reading 3</a>
+            </div>
+        </div>
+
+        <div id="show-nav" class="dropbtn">
+            <div id="dropdown" onClick="myFunction(this)">Interface Project <i class="fa-solid fa-angle-down"></i></div>
+            <div id="myDropdown" class="dropdown-content">
+                    <a href="interface/prototype-1.html">Interface Prototype 1</a>
+                    <a href="interface/prototype-2.html">Interface Prototype 2</a>
+                    <a href="interface/prototype-3.html">Interface Prototype 3</a>
+                    <a href="interface/self-assessment.html">Interface Self Assessment</a>
+                    <a href="interface/progress-1.html">Interface Implementation 1</a>
+                    <a href="interface/progress-2.html">Interface Implementation 2</a>
+            </div>
+        </div>
+        <div id="hamburger"><i class="fa-solid fa-bars" style="font-size:1.2em"></i></div>
+    </nav>
+
+</header>
+
+    <body>
+    <div class="main">
+        <h1>Interface Implementation — Progress Snapshot</h1>
+    
+        <p>Selected pages with interface implemented (desktop only):</p>
+        <p><a href="../index.html">Landing Page</a></p>
+        <p><a href="../micro-project/codeOnly.html">Micro-Project Page</a></p>
+
+        <img src="img/im-d_v1-1.png" style="width:600px"></img>
+        <img src="img/im-d_v1-2.png" style="width:600px"></img>
+
+        <h2>Structural Status</h2>
+        
+        <p><b>What has been implemented?</b></p>
+        <p>For this progress check, I have mostly completed the desktop version of my interface. This involved adding the navigation header and splitting the landing page into two columns. I don’t intend to add real drop-down menus for the navigation header (I tried it, it didn’t work), so I will likely only include the final micro-project link in the header.</p>
+        <p><b>What is structurally working?</b></p>
+        <p>Although the header does not have real drop downs, it does function as one link. I also had to create a “main” div class to make my margins work with the header CSS.</p>
+        <p><b>What is incomplete?</b></p>
+        <p>As mentioned above, the dropdown menus are not functional. I probably won’t make them functional because it didn’t work, but I will re-add my “failed” version at the end to show the coding I did.</p>
+        <p><b>Where does your Figma logic hold?</b></p>
+        <p>The header and columns.</p>
+        <p><b>Where does it break?</b></p>
+        <p>Nothing yet other than the dropdown menus, which were much easier to do on Figma!</p>
+        
+        <h2>Translation Challenges</h2>
+        
+        <p><b>What surprised you in code?</b></p>
+        <p>The P5 canvas doesn’t abide by external CSS rules, I think? So I had to change the CSS within the JavaScript file.</p>
+        <p><b>What structural decision became harder in HTML/CSS?</b></p>
+        <p>Making the drop down menus functional… For the sake of time, I likely will not be making them work completely.</p>
+        <p><b>What assumptions did the browser expose?</b></p>
+        <p>I always forget that my usual CSS margins (I have a default I like to use) won’t work once I add a header with a background.</p>
+        <p><b>What does your interface assume about layout?</b></p>
+        <p>It assumes that the “desktop” devices will be wide enough to support the two columns and the gutter, which are a set width.</p>
+        <p><b>What does CSS assume about flow?</b></p>
+        <p>That people will want navigation at the top of their screen.</p>
+        <p><b>What does HTML assume about hierarchy?</b></p>
+        <p>That people are okay with having all their links shown at once.</p>
+        <p><b>Where do those collide?</b></p>
+        <p>In this case, I guess my navigation can be very overwhelming since the CSS means that navigation is really in your face in two ways.</p>
+        
+        <h2>Next Steps</h2>
+        <p><b>What do you think you should continue to work on before final submission?</b></p>
+        <p>Finish the mobile version! And re-add the dropdown menus even though they don’t work.</p>
+        <p><b>What is your implementation plan for the final week?</b></p>
+        <p>Format the one column on mobile before adding the menus. I’ll try making the micro-project page work (since it has to rotate) if I have the time.</p>
+
+    </div>
+    </body>
+
+</html>

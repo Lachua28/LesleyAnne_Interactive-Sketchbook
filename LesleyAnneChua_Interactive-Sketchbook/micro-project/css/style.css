@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    line-height: 1.8;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: baseline;
+    padding: 50px 50px 15px 50px;
+    background-color: #B6DAC9;
+}
+
+nav {
+    align-items: baseline;
+}
+
+.main {
+    margin: 30px 50px 30px 50px;
+}
+
+.flex {
+    display: flex;
+    gap: 30px;
+}
+
+.twoColumn {
+    display: flex;
+    gap: 100px;
+}
+
+#hamburger {
+    display: none;
+}
+
+/* TYPOGRAPHY *************************************************/
+
+nav {
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 1.6em;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+p, ol, ul {
+    line-height: 1.8;
+    max-width: 800px;
+}
+
+hr {
+    width: 700px;
+    color: #ADADAD;
+    margin: 20px 0 15px 0;
+}
+
+
+/* MOBILE MEDIA QUERY *************************************************/
+
+
+@media (max-width: 800px) {
+
+header {
+    display: block;
+    align-items: baseline;
+    text-align: center;
+    padding: 40px 10px 20px 10px;
+    background-color: #B6DAC9;
+}
+
+h1 {
+    line-height: 1.2em;
+    margin-bottom: 15px;
+}
+
+img {
+    max-width: 94vw;
+    margin: 10px 0px 10px 0px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+hr {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.main {
+    margin: 20px 15px 20px 15px;
+}
+
+.flex {
+    display: block;
+    gap: 30px;
+}
+
+.twoColumn {
+    display: block;
+    gap: 100px;
+}
+
+#show-nav {
+    display: none;
+}
+
+#hamburger {
+    display: block;
+}
+
+}
+
+
+/* DROP DOWN MENUS *************************************************/
+
+.dropdown {
+    position: absolute;
+    right:5%;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropbtn {
+    padding: 5px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #B6DAC9;
+    min-width: 140px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.show {
+    display: block;
+}
